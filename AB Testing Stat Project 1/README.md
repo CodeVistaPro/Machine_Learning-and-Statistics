@@ -8,7 +8,7 @@ A/B testing is a fundamental methodology used to compare two versions of a webpa
 
 We worked with two datasets that provided insights into user behavior and demographics:
 
-### **1. A/B Test Data (********`ab_test.csv`********\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*)**
+### **1. A/B Test Data (********`ab_test.csv`********)**
 
 This dataset records user interactions with either the control group (old page) or the treatment group (new page). It contains the following key columns:
 
@@ -18,7 +18,7 @@ This dataset records user interactions with either the control group (old page) 
 - `page`: Specifies whether the user viewed the `old_page` or the `new_page`.
 - `converted`: A binary indicator (1 = User converted, 0 = User did not convert).
 
-### **2. Country Data (********`countries_ab.csv`********\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*)**
+### **2. Country Data (********`countries_ab.csv`********)**
 
 This dataset provides location-based information about users.
 
@@ -112,7 +112,7 @@ To validate our statistical findings, we leveraged **PyCaret’s AutoML** framew
 
 📌 **Statistical tests and machine learning models show no significant impact from the new page.**
 
-📌 \*\* Conclusion \*\* : Since there is no clear advantage in deploying the new page, it's recommended to **experiment with other variables** such as call-to-action buttons, promotional strategies, and user engagement techniques to improve conversions.
+📌  Conclusion : Since there is no clear advantage in deploying the new page, it's recommended to **experiment with other variables** such as call-to-action buttons, promotional strategies, and user engagement techniques to improve conversions.
 
 📌 **Future Scope**:
 
